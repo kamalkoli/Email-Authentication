@@ -15,3 +15,4 @@ def send_otp_via_email(email):
     user_obj = User.objects.get(email=email)
     user_obj.otp = otp
     user_obj.save()
+#RANDOM COMMENT
